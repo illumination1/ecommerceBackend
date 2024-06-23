@@ -13,13 +13,13 @@ const productSchema = mongoose.Schema({
         type: String,
         default: ''
     },
-    image: {
-        type: String,
-        default: ''
-    },
-    images: [{
-        type: String
-    }],
+    // image: {
+    //     type: String,
+    //     default: ''
+    // },
+    // images: [{
+    //     type: String
+    // }],
     brand: {
         type: String,
         default: ''
